@@ -15,7 +15,12 @@ public class ClassStart2 {
     student2.age = 16;
     student2.grade = 80;
 
-        System.out.println(student1); // 참조값이 출력됨
-        System.out.println(student1.name);
+
+    Student[] students = new Student[2];
+    students[0] = student1;
+    students[1] = student2;
+
+    System.out.println("이름 : " + students[0].name + "나이 : " + students[0].age + "성적 : " + students[0].grade);
+    System.out.println("이름 : " + students[1].name + "나이 : " + students[1].age + "성적 : " + students[1].grade);
     }
 }
