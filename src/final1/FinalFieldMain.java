@@ -17,6 +17,11 @@ public class FinalFieldMain {
 
         System.out.println(fieldInit1.value);
         System.out.println(fieldInit2.value);
-        System.out.println(fieldInit3.value);
+
+
+        //상수
+        System.out.println("상수");
+        System.out.println(FieldInit.CONST_VALUE);
+
     }
 }
