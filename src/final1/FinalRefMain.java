@@ -3,7 +3,7 @@ package final1;
 public class FinalRefMain {
 
     public static void main(String[] args) {
-        //Data라는 참조형을 final로
+        //Data라는 참조형을 final로 > 참조값 변경은 안돼
         final Data data = new Data();
 
 
