@@ -2,6 +2,7 @@ package poly.ex4;
 
 
 public class AbstractAnimalMain {
+
     public static void main(String[] args) {
 
         Dog dog = new Dog();
