@@ -21,6 +21,7 @@ public class OverridingMain {
         poly.method(); //method는 child
 
         // 변수는 오버라이딩이 안되고 메서드는 오버라이딩이 된다.
+        // 오버라이딩 된 메서드는 항상 우선권을 가짐!!
     }
 
 }
